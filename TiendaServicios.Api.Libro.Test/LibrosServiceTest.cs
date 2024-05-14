@@ -76,7 +76,7 @@ namespace TiendaServicios.Api.Libro.Test
         public async void GetLibros()
         {
             //Permitir el debuggeo (no usar en varios métodos a la vez)
-            System.Diagnostics.Debugger.Launch();
+            //System.Diagnostics.Debugger.Launch();
 
             //1. Emular a la instancia de Entity Framework Core, que no instanciar. Emular != Instanciar
             var mokContexto = CrearContexto();
